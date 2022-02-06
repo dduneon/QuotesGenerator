@@ -13,6 +13,7 @@
 		BF50E11627AFD2C7003D9F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF50E11427AFD2C7003D9F41 /* Main.storyboard */; };
 		BF50E11827AFD2C8003D9F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF50E11727AFD2C8003D9F41 /* Assets.xcassets */; };
 		BF50E11B27AFD2C8003D9F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF50E11927AFD2C8003D9F41 /* LaunchScreen.storyboard */; };
+		BF50E12327AFD5E8003D9F41 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50E12227AFD5E8003D9F41 /* Quotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BF50E11727AFD2C8003D9F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF50E11A27AFD2C8003D9F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF50E11C27AFD2C8003D9F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF50E12227AFD5E8003D9F41 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BF50E11727AFD2C8003D9F41 /* Assets.xcassets */,
 				BF50E11927AFD2C8003D9F41 /* LaunchScreen.storyboard */,
 				BF50E11C27AFD2C8003D9F41 /* Info.plist */,
+				BF50E12227AFD5E8003D9F41 /* Quotes.swift */,
 			);
 			path = QuotesGenerator;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF50E12327AFD5E8003D9F41 /* Quotes.swift in Sources */,
 				BF50E11327AFD2C7003D9F41 /* ViewController.swift in Sources */,
 				BF50E10F27AFD2C7003D9F41 /* AppDelegate.swift in Sources */,
 				BF50E11127AFD2C7003D9F41 /* SceneDelegate.swift in Sources */,
